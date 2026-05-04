@@ -65,7 +65,6 @@
 <header class="site-header" id="site-header">
   <div class="header-inner">
     <a href="index.html" class="logo-link" aria-label="Ashvale Legal Home">
-      <!-- Rescaled Logo -->
       <img src="https://images.squarespace-cdn.com/content/v1/682dfb86cdcfc8310bf9b8bf/18332b21-a7b1-409e-9f54-bfc1814788dd/Transparent+Logo.png?format=300w" 
            alt="Ashvale Legal" 
            class="logo-img" 
@@ -94,43 +93,58 @@
 
 <main>
   <section class="hero">
-    <div class="hero-overlay"></div>
+    <div class="hero-overlay" style="background: rgba(0, 20, 40, 0.6);"></div> <!-- Deepened the overlay for better text readability -->
     <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1600&q=80" alt="Law office South Jordan Utah" class="hero-bg" loading="eager">
     <div class="container hero-content">
-      <!-- High contrast location text -->
-      <p class="hero-eyebrow" style="text-shadow: 0px 2px 8px rgba(0,0,0,0.8); font-weight: 700; letter-spacing: 1.2px; color: #ffffff;">South Jordan, Utah &bull; Salt Lake County</p>
-      <h1>Estate Planning &amp; Business Law Attorney<br>Serving the Salt Lake Valley</h1>
-      <p class="hero-sub">Veteran-owned. Flat-fee pricing. Free 30-minute consultation.<br>Straightforward legal counsel for Utah families and businesses.</p>
+      
+      <!-- Eyebrow: Gold highlight color -->
+      <p class="hero-eyebrow" style="text-shadow: 1px 1px 10px rgba(0,0,0,0.9); font-weight: 700; letter-spacing: 1.5px; color: #D4AF37; margin-bottom: 10px; text-transform: uppercase;">
+        South Jordan, Utah &bull; Salt Lake County
+      </p>
+      
+      <!-- H1: Crisp White with a soft shadow for depth -->
+      <h1 style="color: #ffffff; text-shadow: 2px 2px 15px rgba(0,0,0,0.7); line-height: 1.2;">
+        <span style="color: #ffffff;">Estate Planning</span> &amp; <span style="color: #D4AF37;">Business Law</span> Attorney<br>
+        <span style="font-size: 0.9em; opacity: 0.95;">Serving the Salt Lake Valley</span>
+      </h1>
+      
+      <!-- Sub-headline: Bright white with increased contrast -->
+      <p class="hero-sub" style="color: #f8f9fa; text-shadow: 1px 1px 8px rgba(0,0,0,0.8); font-weight: 400; max-width: 800px; margin: 20px auto;">
+        Veteran-owned. Flat-fee pricing. Free 30-minute consultation.<br>
+        <span style="font-weight: 500;">Straightforward legal counsel for Utah families and businesses.</span>
+      </p>
+
       <div class="hero-actions">
-        <a href="https://ashvalelaw.cliogrow.com/book/3494140267d6b8330a02c39e8ebb3258" target="_blank" rel="noopener" class="btn btn-primary">Schedule Your Free Consultation</a>
-        <a href="tel:+18013697005" class="btn btn-secondary">(801) 369-7005</a>
+        <a href="https://ashvalelaw.cliogrow.com/book/3494140267d6b8330a02c39e8ebb3258" target="_blank" rel="noopener" class="btn btn-primary" style="background-color: #D4AF37; border-color: #D4AF37; color: #001428;">Schedule Your Free Consultation</a>
+        <a href="tel:+18013697005" class="btn btn-secondary" style="border-color: #ffffff; color: #ffffff;">(801) 369-7005</a>
       </div>
     </div>
   </section>
 
+  <!-- Rest of the sections remain the same for structural consistency -->
   <section class="section bg-white">
     <div class="container">
       <div class="section-label">A Different Kind of Law Firm</div>
       <h2>Honest Legal Counsel for South Jordan Families &amp; Businesses</h2>
-      <p class="lead">At Ashvale Legal, we believe legal services should be clear, affordable, and built around your actual situation not a template. Attorney Christopher R. Topham is a U.S. Army veteran who brings the same discipline and commitment to every client he serves across Salt Lake County, Utah County, and the greater South Jordan area.</p>
+      <p class="lead">At Ashvale Legal, we believe legal services should be clear, affordable, and built around your actual situation—not a template. Attorney Christopher R. Topham is a U.S. Army veteran who brings the same discipline and commitment to every client he serves across Salt Lake County, Utah County, and the greater South Jordan area.</p>
       <div class="cards-grid">
         <div class="card">
-          <div class="card-icon">&#9878;</div>
+          <div class="card-icon" style="color: #D4AF37;">&#9878;</div>
           <h3>Flat-Fee Pricing</h3>
           <p>No surprise bills. You'll know exactly what your legal services cost before any work begins.</p>
         </div>
         <div class="card">
-          <div class="card-icon">&#128100;</div>
+          <div class="card-icon" style="color: #D4AF37;">&#128100;</div>
           <h3>Direct Attorney Access</h3>
-          <p>You work with Chris not a paralegal or intake form. Real legal counsel from day one.</p>
+          <p>You work with Chris—not a paralegal or intake form. Real legal counsel from day one.</p>
         </div>
         <div class="card">
-          <div class="card-icon">&#127981;</div>
+          <div class="card-icon" style="color: #D4AF37;">&#127981;</div>
           <h3>Veteran-Owned Firm</h3>
           <p>Nearly two decades of U.S. Army service. The same integrity and accountability in every case.</p>
         </div>
         <div class="card">
-          <div class="card-icon">&#128205;</div>
+          <div class="card-icon" style="color: #D4AF37;">&#128205;</div>
           <h3>Locally Rooted in Utah</h3>
           <p>We know South Jordan, Herriman, Riverton, Draper, and the communities we serve across Salt Lake County.</p>
         </div>
@@ -144,12 +158,12 @@
       <h2 class="text-white">Two Practice Areas. One Dedicated Attorney.</h2>
       <div class="services-grid">
         <a href="business-law.html" class="service-block">
-          <h3>Business Law</h3>
+          <h3 style="color: #D4AF37;">Business Law</h3>
           <p>Entity formation, contract drafting, business dispute resolution, and ongoing business counsel for South Jordan entrepreneurs and small businesses throughout Utah.</p>
           <span class="link-arrow">Learn more &rarr;</span>
         </a>
         <a href="estate-planning.html" class="service-block">
-          <h3>Estate Planning</h3>
+          <h3 style="color: #D4AF37;">Estate Planning</h3>
           <p>Wills, revocable living trusts, powers of attorney, healthcare directives, and guardianship designations built for your specific situation, not a generic template.</p>
           <span class="link-arrow">Learn more &rarr;</span>
         </a>
@@ -164,10 +178,9 @@
         <h2>Christopher R. Topham</h2>
         <p>Chris is a licensed Utah attorney and U.S. Army veteran with nearly two decades of military service. He founded Ashvale Legal on a simple premise: clients in South Jordan and across Salt Lake County deserve honest, clear legal guidance without the confusion of hidden fees or inaccessible counsel.</p>
         <p>Before every engagement begins, Chris will review your situation personally, explain your options in plain English, and give you an upfront flat-fee quote. No pressure. No runaround.</p>
-        <a href="https://ashvalelaw.cliogrow.com/book/3494140267d6b8330a02c39e8ebb3258" target="_blank" rel="noopener" class="btn btn-primary">Schedule a Free Consultation</a>
+        <a href="https://ashvalelaw.cliogrow.com/book/3494140267d6b8330a02c39e8ebb3258" target="_blank" rel="noopener" class="btn btn-primary" style="background-color: #D4AF37; border-color: #D4AF37; color: #001428;">Schedule a Free Consultation</a>
       </div>
       <div class="col-image">
-        <!-- FIXED PHOTO LINK: High-res direct CDN link -->
         <img src="https://images.squarespace-cdn.com/content/v1/682dfb86cdcfc8310bf9b8bf/77fb3a4b-b80d-4292-9b7b-071cf756a24e/Gemini_Generated_Image_nm7nljnm7nljnm7n.png?format=1000w" 
              alt="Christopher Topham, Esquire, South Jordan Utah" 
              class="attorney-photo" 
@@ -183,39 +196,39 @@
       <h2>Why Utah Clients Choose Ashvale Legal</h2>
       <div class="standards-grid">
         <div class="standard-item">
-          <div class="check">&#10003;</div>
+          <div class="check" style="color: #D4AF37;">&#10003;</div>
           <div><strong>No templates.</strong> Every document is drafted for your specific situation, family, and assets.</div>
         </div>
         <div class="standard-item">
-          <div class="check">&#10003;</div>
-          <div><strong>Price transparency.</strong> Flat-fee quotes before any work begins always.</div>
+          <div class="check" style="color: #D4AF37;">&#10003;</div>
+          <div><strong>Price transparency.</strong> Flat-fee quotes before any work begins—always.</div>
         </div>
         <div class="standard-item">
-          <div class="check">&#10003;</div>
+          <div class="check" style="color: #D4AF37;">&#10003;</div>
           <div><strong>Plain English.</strong> Legal concepts explained in language that actually makes sense.</div>
         </div>
         <div class="standard-item">
-          <div class="check">&#10003;</div>
+          <div class="check" style="color: #D4AF37;">&#10003;</div>
           <div><strong>Utah-specific expertise.</strong> Deep knowledge of Salt Lake County, Utah County, and South Jordan area law.</div>
         </div>
         <div class="standard-item">
-          <div class="check">&#10003;</div>
+          <div class="check" style="color: #D4AF37;">&#10003;</div>
           <div><strong>Free first consultation.</strong> 30 minutes with the attorney. No obligation whatsoever.</div>
         </div>
         <div class="standard-item">
-          <div class="check">&#10003;</div>
+          <div class="check" style="color: #D4AF37;">&#10003;</div>
           <div><strong>Veteran-owned accountability.</strong> Military values: integrity, duty, and follow-through on every matter.</div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section cta-section">
+  <section class="section cta-section" style="background-color: #001428;">
     <div class="container text-center">
-      <h2>Let's Talk About What You're Navigating</h2>
-      <p>Whether you're a South Jordan family planning for the future or a Utah business owner navigating a contract dispute, your first 30 minutes with Chris is on us.</p>
-      <a href="https://ashvalelaw.cliogrow.com/book/3494140267d6b8330a02c39e8ebb3258" target="_blank" rel="noopener" class="btn btn-primary btn-large">Book a Free Appointment</a>
-      <p class="cta-sub">Or call us at <a href="tel:+18013697005" class="phone-link">(801) 369-7005</a></p>
+      <h2 style="color: #ffffff;">Let's Talk About What You're Navigating</h2>
+      <p style="color: #f8f9fa;">Whether you're a South Jordan family planning for the future or a Utah business owner navigating a contract dispute, your first 30 minutes with Chris is on us.</p>
+      <a href="https://ashvalelaw.cliogrow.com/book/3494140267d6b8330a02c39e8ebb3258" target="_blank" rel="noopener" class="btn btn-primary btn-large" style="background-color: #D4AF37; border-color: #D4AF37; color: #001428;">Book a Free Appointment</a>
+      <p class="cta-sub" style="color: #ffffff;">Or call us at <a href="tel:+18013697005" class="phone-link" style="color: #D4AF37;">(801) 369-7005</a></p>
     </div>
   </section>
 </main>
@@ -223,7 +236,6 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <div class="footer-col">
-      <!-- Rescaled Footer Logo -->
       <img src="https://images.squarespace-cdn.com/content/v1/682dfb86cdcfc8310bf9b8bf/18332b21-a7b1-409e-9f54-bfc1814788dd/Transparent+Logo.png?format=300w" 
            alt="Ashvale Legal" 
            class="footer-logo" 
@@ -245,7 +257,7 @@
         <p><a href="tel:+18013697005">(801) 369-7005</a></p>
         <p><a href="mailto:chris@ashvalelaw.com">chris@ashvalelaw.com</a></p>
       </address>
-      <a href="https://ashvalelaw.cliogrow.com/book/3494140267d6b8330a02c39e8ebb3258" target="_blank" rel="noopener" class="btn btn-primary">Schedule Consultation</a>
+      <a href="https://ashvalelaw.cliogrow.com/book/3494140267d6b8330a02c39e8ebb3258" target="_blank" rel="noopener" class="btn btn-primary" style="background-color: #D4AF37; border-color: #D4AF37; color: #001428;">Schedule Consultation</a>
     </div>
   </div>
   <div class="footer-bottom">
