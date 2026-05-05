@@ -44,25 +44,39 @@
 </head>
 <body>
 
-<header class="site-header" id="site-header">
-  <div class="header-inner">
-    <a href="index.html" class="logo-link" aria-label="Ashvale Legal Home">
-      <img src="https://images.squarespace-cdn.com/content/v1/682dfb86cdcfc8310bf9b8bf/18332b21-a7b1-409e-9f54-bfc1814788dd/Transparent+Logo.png?format=300w" alt="Ashvale Legal" class="logo-img" loading="eager">
-    </a>
-    <nav class="main-nav" aria-label="Main navigation">
+<header class="site-header leader-header" id="site-header">
+  <div class="header-inner leader-header-inner">
+    <nav class="main-nav nav-left" aria-label="Primary navigation left">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
         <li class="has-dropdown">
-          <button class="dropdown-toggle" aria-expanded="false" aria-controls="services-menu">Services <span class="arrow">&#9660;</span></button>
+          <button class="dropdown-toggle" aria-expanded="false" aria-controls="services-menu">Practice<br>Areas <span class="arrow">&#9660;</span></button>
           <ul class="dropdown-menu" id="services-menu">
             <li><a href="business-law.html">Business Law</a></li>
             <li><a href="estate-planning.html">Estate Planning</a></li>
           </ul>
         </li>
-        <li><a href="index.html#about">About</a></li>
+        <li><a href="business-law.html">Business Law</a></li>
       </ul>
     </nav>
-    <a href="https://ashvalelaw.cliogrow.com/book/3494140267d6b8330a02c39e8ebb3258" target="_blank" rel="noopener" class="btn btn-cta">Schedule Consultation</a>
+
+    <a href="index.html" class="logo-link leader-logo" aria-label="Ashvale Legal Home">
+      <img src="https://images.squarespace-cdn.com/content/v1/682dfb86cdcfc8310bf9b8bf/18332b21-a7b1-409e-9f54-bfc1814788dd/Transparent+Logo.png?format=1000w" alt="Ashvale Legal" class="logo-img" loading="eager">
+    </a>
+
+    <nav class="main-nav nav-right" aria-label="Primary navigation right">
+      <ul>
+        <li><a href="estate-planning.html">Estate Planning</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mailto:chris@ashvalelaw.com">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a href="tel:+18013697005" class="header-phone" aria-label="Call Ashvale Legal">
+      <span>Call Us Today</span>
+      <strong>801.369.7005</strong>
+    </a>
+
     <button class="burger" aria-label="Open menu" aria-expanded="false" id="burger-btn">
       <span></span><span></span><span></span>
     </button>
@@ -245,6 +259,8 @@
     </div>
   </div>
 </footer>
+
+<a href="https://ashvalelaw.cliogrow.com/book/3494140267d6b8330a02c39e8ebb3258" target="_blank" rel="noopener" class="floating-chat" aria-label="Start consultation chat"><span class="chat-vertical">Start Chat</span><span class="chat-bubble">1</span></a>
 
 <script src="shared.js"></script>
 </body>
